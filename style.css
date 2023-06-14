@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata&family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Dancing+Script&family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Dancing+Script&family=Inconsolata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color:burlywood; 
+    font-family: 'fira sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.2s ease-in;
+
+
+}
+
+    .sidebar nav{
+        padding: 50px;
+    }
+
+    .sidebar nav li{
+        list-style: none;
+        font-size: 20px;
+        padding: 33px 0;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Inconsolata', monospace;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .sidebar nav li a{
+       text-decoration: none;
+       color: white;
+
+    }
+
+    .main{
+   /* background-color: chocolate;*/
+    width: 100vw ;
+    
+}
+
+    .container{
+        display: flex;
+    }
+
+    .infocontainer{
+       /* background-color: rgb(234, 70, 70);*/
+        height: 45vh;
+        width: 80vw;
+        margin: 150px auto;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .imageinfo{
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+    }
+
+    .hello{
+        font-size: 60px;
+        font-family: 'Inconsolata', monospace;
+    }
+    .name{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .about{
+        font-size: 20px;
+        font-family: 'Cormorant Garamond', serif;
+        font-family: 'Dancing Script',cursive;
+        font-family: 'Inconsolata', monospace;
+
+    }
+ 
+    .buttons{
+    margin-top: 50px;
+   
+}
+    
+    .buttons button{
+     padding: 10px  15px;
+     border-radius: 50px;
+     color: white;
+     background: rgb(14, 30, 208);
+     cursor: pointer;
+    }
+
+    .buttons button:hover{
+        background-color:white;
+        color:rgb(14, 30, 208) ;
+    }
+
+    .imagepng img{
+        width: 60vh;
+        height: 60vh;
+        justify-content: end;
+       
+    }
+
+    .contactform{
+        padding:  0   34px;
+        padding-top: 110px;
+        font-family: 'Cormorant Garamond', serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Inconsolata', monospace;
+        margin:  0 100px;
+
+
+    }
+
+    .contactform h1{
+        font-family: 'Inconsolata', monospace;
+        text-align: center;
+        padding: 20px   0;
+
+    
+    }
+  
+    .contactform  form div{
+        padding: 15px  0;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+      .contactform form div input{
+        width: 15vw;
+      }
+
+    #emailHelp{
+        font-size: 8px;
+        color: darkred;
+        margin: 0 5px;
+        padding: 3px  0   0;
+    }
+     
+    #form-check{
+        flex-direction: row;
+    }
+   
+    #form-check input
+    {
+        width: 20px;
+        margin: 4px  0;
+    }
+        .h2{
+        font-family: 'Inconsolata', monospace;
+        margin:  12px;
+        text-align: center;
+    }
+
+ 
+    
+
+    .skillscontainer{
+
+        padding: 12px;
+        font-style: calc();
+        margin:  0 150px;
+       
+    }
+    .skillitem{
+
+        padding: 30px;
+        display: flex;
+        text-align: center;
+        font-weight: 900;
+        font-family: 'Cormorant Garamond', serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Inconsolata', monospace;
+        margin-top: 0 100px;
+       
+       
+
+        
+    }
+    .skills{
+        width: 200px;
+        height: 9px;
+        background-color: blueviolet;
+        border: 2px solid black;
+        text-align: center;
+        
+        
+
+    }
+
+    .hundred{
+        width: 265px;
+        background-color: chartreuse;
+
+    }
+
+    
+    .fifty{
+        width: 125px;
+        background-color: coral;
+
+    }
+
+    .fourty{
+        width: 90px;
+        background-color: cyan;
+
+    }
+
+    .t5{
+        width: 40px;
+        background-color: darkkhaki;
+
+    }
+    
+    .skillitem image1png:hover{
+        padding: 10px;
+        width: 90px;
+        height: 90px;
+        flex: none;
+        background-image: radial-gradient();
+        text-align: right; 
+    }
+
+   .education h1{
+    text-align: center;
+    font-size: 40px;
+    color: indianred;
+   }
+
+   .education h1 span{
+    text-align: center;
+    font-size: 40px;
+    color: darksalmon;
+   }
+
+   .education .box-container{
+    display: flex;
+   align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+    padding-left: 5rem;
+    margin:  0 100px;
+
+
+
+
+   }
+     
+.education .box-container .box{
+    width: 27rem;
+    margin: 4rem   1rem;
+    padding-left: 4rem;
+    border-left: 2rem solid rgb(160, 114, 22);
+    position: relative;
+    
+}
+    .education .box-container .box span{
+     font-size: 1.3rem;
+     background-color: darkgray;
+     border-radius: 5rem;
+     
+    }
+
+    .education .box-container .box h3{
+        font-size: 1rem;
+        color: black;
+        padding-top: 1rem;
+    }
+   
+    .education .box-container .box p{
+        font-size: 1.3rem;
+        color:chocolate;
+        padding-top: 1 rem 0;
+    }
+
+  
+    .cv{
+        width: 700px;
+        height: 700px;
+        margin:  0 100px;
+    }
+  
+   .sidebarGo{
+     transform: translate(-500px, 0px);
+     position: absolute;
+   }
+   
+
+  .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+  }
+  .cross{
+    margin-left: 143px;
+    margin-top: 7px;
+
+
+  }
+
+  @media (max-width: 1105px) {
+    *{
+
+        background-color: coral;
+    }
+    .imagepng{
+        display: none;
+    }
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+}
